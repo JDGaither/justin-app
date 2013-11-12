@@ -1,3 +1,25 @@
 // Place all the styles related to the Sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.jumbotron {
+	margin:00px 0;
+}
+
+.header ul.nav.nav-pills.pull-right {
+	float: right;
+	margin: 10px 43px 0 0;
+}
+
+h1 {
+	position: relative;
+	width: 350px;
+	float: left;
+}
+.lead {
+	margin:80px 0;
+	font-size:30px;
+}
+
+.nav {
+	margin:10px;
+}

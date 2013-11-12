@@ -9,7 +9,9 @@ class ScholarshipsController < ApplicationController
 
   # GET /scholarships/1
   # GET /scholarships/1.json
+  
   def show
+
   end
 
   # GET /scholarships/new

@@ -26,37 +26,31 @@
 
     <div class="container">
       <div class="header">
+        <h1>ScholarshipKing</h1>
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
+          <li><%= link_to "Scholarships", scholarships_path %></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
+      
 
-      <div class="jumbotron">
-        <h1>Welcome to ScholarshipKing</h1>
-        <p class="lead">Apply for scholarships.  Win money for college.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Student Sign Up</a></p>
-        <p><a class="btn btn-lg btn-success" href="#">Sponsor Sign Up</a></p>
+      <div> 
+        <p class="lead text-center">Apply for scholarships.  Win money for college.</p>
+        <p class="lead text-center"><a class="btn btn-large btn-info" <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %></a></p>
       </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <div class="lead text-center">
+          <h4>ScholarshipKing is brought to you by eCampus.</h4>
+          <p>We provide services for college students.</p>
         </div>
 
       
         </div>
       </div>
 
-      <div class="footer">
+      <div class="footer text-center">
         <p>&copy; ECampus, LLC 2013</p>
       </div>
 

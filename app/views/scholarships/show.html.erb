@@ -33,4 +33,11 @@
 <%= link_to 'Edit', edit_scholarship_path(@scholarship) %> |
 <%= link_to 'Back', scholarships_path %>
 <div>
-<%= link_to 'Apply for this Scholarship'%>
+
+<div id="user-widget">
+  <% if current_user %>
+    <%= link_to 'Apply for this Scholarship' %>
+    <% else %>
+    <%= link_to "Sign in with Facebook to Apply", "/auth/facebook", id: "sign_in" %>
+  <% end %>
+</div>
